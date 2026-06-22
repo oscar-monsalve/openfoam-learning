@@ -1,5 +1,30 @@
 # OpenFOAM directories and Git workflow
 
+## OpenFOAM environment
+
+OpenFOAM is not loaded automatically in every terminal session. Before working with OpenFOAM cases, load the OpenFOAM environment manually with:
+
+```bash
+of
+```
+
+This command activates OpenFOAM v2512 for the current terminal session by defining variables such as `$WM_PROJECT_DIR`, `$FOAM_TUTORIALS`, and `$FOAM_RUN` (these environment variables are explain in the next section), and by making commands such as `blockMesh`, `checkMesh`, `icoFoam`, and `paraFoam` available.
+
+I intentionally run `of` only when I am going to work with OpenFOAM, instead of loading it automatically in every terminal. This keeps the normal shell environment cleaner for unrelated tasks such as Git, Python, Neovim configuration, or general Linux work.
+
+To verify that OpenFOAM is loaded:
+
+```bash
+echo "$WM_PROJECT_VERSION"
+command -v blockMesh
+```
+
+Expected version:
+
+```text
+v2512
+```
+
 ## OpenFOAM environment variables
 
 After loading OpenFOAM with:
