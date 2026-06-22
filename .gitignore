@@ -1,0 +1,35 @@
+# OpenFOAM result time directories
+**/[1-9]/
+**/[1-9][0-9]*/
+**/[0-9]*.[0-9]*/
+
+# Parallel run directories
+**/processor*/
+**/processors*/
+
+# Generated mesh files
+**/constant/polyMesh/
+
+# Post-processing outputs
+**/postProcessing/
+**/VTK/
+
+# Logs
+**/log.*
+**/*.log
+
+# ParaView/OpenFOAM reader marker files
+**/*.OpenFOAM
+**/*.foam
+
+# Dynamic compilation
+**/dynamicCode/
+
+# Temporary files
+**/*~
+**/*.swp
+**/*.swo
+
+# Core dumps
+core
+core.*
