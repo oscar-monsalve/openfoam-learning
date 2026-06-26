@@ -1,3 +1,24 @@
+# OpenFOAM Guides and tutorials
+
+## Guides
+
+- [Official OpenFOAM documentation](https://www.openfoam.com/documentation/overview)
+
+## Tutorials
+
+- [Official legacy User Guide](https://www.openfoam.com/documentation/user-guide)
+
+- [Official legacy Tutorial Guide](https://www.openfoam.com/documentation/tutorial-guide)
+
+- [Community's tutorials](https://wiki.openfoam.com/index.php?title=Tutorials)
+
+## Source code and release page
+
+- [Source code (GitLab)](https://gitlab.com/openfoam/core/openfoam)
+
+- [Releases](https://www.openfoam.com/news/main-news/openfoam-v2512)
+
+
 # OpenFOAM directories and Git workflow
 
 ## OpenFOAM environment
@@ -191,7 +212,7 @@ openfoam-learning/
 ├── .gitignore
 ├── notes/
 ├── scripts/
-└── cases/
+└── tutorials/
     ├── cavity/
     ├── pipe_laminar/
     └── blockMesh_basics/
