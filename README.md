@@ -1,10 +1,8 @@
 # OpenFOAM Guides and tutorials
 
-## Guides
+## Guides and Tutorials
 
 - [Official OpenFOAM documentation](https://www.openfoam.com/documentation/overview)
-
-## Tutorials
 
 - [Official legacy User Guide](https://www.openfoam.com/documentation/user-guide)
 
