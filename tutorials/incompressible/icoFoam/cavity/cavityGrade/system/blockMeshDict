@@ -1,0 +1,103 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2512                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      blockMeshDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+scale   0.1;
+
+vertices
+(
+    (0 0 0)
+    (0.5 0 0)
+    (1 0 0)
+    (0 0.5 0)
+    (0.5 0.5 0)
+    (1 0.5 0)
+    (0 1 0)
+    (0.5 1 0)
+    (1 1 0)
+    (0 0 0.1)
+    (0.5 0 0.1)
+    (1 0 0.1)
+    (0 0.5 0.1)
+    (0.5 0.5 0.1)
+    (1 0.5 0.1)
+    (0 1 0.1)
+    (0.5 1 0.1)
+    (1 1 0.1)
+);
+
+blocks
+(
+    // SimpleGrading:
+    // Values = 1: Generates uniformly sized cells in that direction.
+    // Values > 1: Cells grow in size from the first vertex to the second vertex (e.g., (2 1 1)).
+    // Values < 1: Cells shrink in size from the first vertex to the second vertex (e.g., (0.5 1 1)).
+    // Consider a block with vertices defined from x = 0 (start) to x = 10 (end).
+    // Uniform mesh: simpleGrading (1 1 1) results in evenly spaced cells across the entire block.
+    // Refinement at the end: simpleGrading (5 1 1) makes the final cell at x = 10 exactly 5 times larger than the first cell at x = 0.
+    // Refinement at the start: simpleGrading (0.2 1 1) (which is equivalent to 1/5) makes the cell at x = 10 five times larger than the first cell at x = 0, concentrating smaller cells at the origin.
+    hex (0 1 4 3 9 10 13 12) (10 10 1) simpleGrading (2 2 1)
+    hex (1 2 5 4 10 11 14 13) (10 10 1) simpleGrading (0.5 2 1)
+    hex (3 4 7 6 12 13 16 15) (10 10 1) simpleGrading (2 0.5 1)
+    hex (4 5 8 7 13 14 17 16) (10 10 1) simpleGrading (0.5 0.5 1)
+);
+
+edges
+(
+);
+
+boundary
+(
+    movingWall
+    {
+        type wall;
+        faces
+        (
+            (6 15 16 7)
+            (7 16 17 8)
+        );
+    }
+    fixedWalls
+    {
+        type wall;
+        faces
+        (
+            (3 12 15 6)
+            (0 9 12 3)
+            (0 1 10 9)
+            (1 2 11 10)
+            (2 5 14 11)
+            (5 8 17 14)
+        );
+    }
+    frontAndBack
+    {
+        type empty;
+        faces
+        (
+            (0 3 4 1)
+            (1 4 5 2)
+            (3 6 7 4)
+            (4 7 8 5)
+            (9 10 13 12)
+            (10 11 14 13)
+            (12 13 16 15)
+            (13 14 17 16)
+        );
+    }
+);
+
+
+// ************************************************************************* //
