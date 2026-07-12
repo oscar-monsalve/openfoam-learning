@@ -26,25 +26,23 @@ The ParaView result images are stored in `paraview_images/`. The rendered videos
 
 ## Videos
 
-<figure>
-  <video src="paraview_images/animations/velocity_contour.mp4" controls preload="metadata" width="700"></video>
-  <figcaption>Velocity magnitude contour animation.</figcaption>
-</figure>
+GitHub does not render repository-local `<video>` tags in README files. Use the preview images below to open the `.mp4` animations. The videos do not autoplay.
 
-<figure>
-  <video src="paraview_images/animations/pressure_contour.mp4" controls preload="metadata" width="700"></video>
-  <figcaption>Pressure contour animation.</figcaption>
-</figure>
+[<img src="paraview_images/velocity_contour_at_20s.png" alt="Open velocity magnitude contour animation" width="700">](paraview_images/animations/velocity_contour.mp4)
 
-<figure>
-  <video src="paraview_images/animations/velocity_vectors.mp4" controls preload="metadata" width="700"></video>
-  <figcaption>Velocity vector field animation.</figcaption>
-</figure>
+Velocity magnitude contour animation: [`paraview_images/animations/velocity_contour.mp4`](paraview_images/animations/velocity_contour.mp4)
 
-<figure>
-  <video src="paraview_images/animations/streamlines.mp4" controls preload="metadata" width="700"></video>
-  <figcaption>Velocity streamline animation.</figcaption>
-</figure>
+[<img src="paraview_images/pressure_contour_at_20s.png" alt="Open pressure contour animation" width="700">](paraview_images/animations/pressure_contour.mp4)
+
+Pressure contour animation: [`paraview_images/animations/pressure_contour.mp4`](paraview_images/animations/pressure_contour.mp4)
+
+[<img src="paraview_images/velocity_vectors_at_20s.png" alt="Open velocity vector field animation" width="700">](paraview_images/animations/velocity_vectors.mp4)
+
+Velocity vector field animation: [`paraview_images/animations/velocity_vectors.mp4`](paraview_images/animations/velocity_vectors.mp4)
+
+[<img src="paraview_images/velocity_streamlines_at_20s.png" alt="Open velocity streamline animation" width="700">](paraview_images/animations/streamlines.mp4)
+
+Velocity streamline animation: [`paraview_images/animations/streamlines.mp4`](paraview_images/animations/streamlines.mp4)
 
 # `cavityRAS` tutorial: manual `pisoFoam` run with standard k-epsilon
 
