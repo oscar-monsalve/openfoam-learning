@@ -1,3 +1,51 @@
+# Results
+
+The ParaView result images are stored in `paraview_images/`. The rendered videos are stored in `paraview_images/animations/`.
+
+## Images
+
+<figure>
+  <img src="paraview_images/velocity_contour_at_20s.png" alt="Velocity magnitude contour at 20 s" width="700">
+  <figcaption>Velocity magnitude contour at <code>t = 20 s</code>.</figcaption>
+</figure>
+
+<figure>
+  <img src="paraview_images/pressure_contour_at_20s.png" alt="Pressure contour at 20 s" width="700">
+  <figcaption>Pressure contour at <code>t = 20 s</code>.</figcaption>
+</figure>
+
+<figure>
+  <img src="paraview_images/velocity_vectors_at_20s.png" alt="Velocity vector field at 20 s" width="700">
+  <figcaption>Velocity vector field at <code>t = 20 s</code>.</figcaption>
+</figure>
+
+<figure>
+  <img src="paraview_images/velocity_streamlines_at_20s.png" alt="Velocity streamlines at 20 s" width="700">
+  <figcaption>Velocity streamlines at <code>t = 20 s</code>.</figcaption>
+</figure>
+
+## Videos
+
+<figure>
+  <video src="paraview_images/animations/velocity_contour.mp4" controls preload="metadata" width="700"></video>
+  <figcaption>Velocity magnitude contour animation.</figcaption>
+</figure>
+
+<figure>
+  <video src="paraview_images/animations/pressure_contour.mp4" controls preload="metadata" width="700"></video>
+  <figcaption>Pressure contour animation.</figcaption>
+</figure>
+
+<figure>
+  <video src="paraview_images/animations/velocity_vectors.mp4" controls preload="metadata" width="700"></video>
+  <figcaption>Velocity vector field animation.</figcaption>
+</figure>
+
+<figure>
+  <video src="paraview_images/animations/streamlines.mp4" controls preload="metadata" width="700"></video>
+  <figcaption>Velocity streamline animation.</figcaption>
+</figure>
+
 # `cavityRAS` tutorial: manual `pisoFoam` run with standard k-epsilon
 
 ## Purpose of this case
