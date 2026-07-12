@@ -26,23 +26,22 @@ The ParaView result images are stored in `paraview_images/`. The rendered videos
 
 ## Videos
 
-GitHub does not render repository-local `<video>` tags in README files. Use the preview images below to open the `.mp4` animations. The videos do not autoplay.
+- Velocity magnitude contour animation:
 
-[<img src="paraview_images/velocity_contour_at_20s.png" alt="Open velocity magnitude contour animation" width="700">](paraview_images/animations/velocity_contour.mp4)
+https://github.com/user-attachments/assets/4ad1fdf6-070c-4709-bdc7-5a93217741f2
 
-Velocity magnitude contour animation: [`paraview_images/animations/velocity_contour.mp4`](paraview_images/animations/velocity_contour.mp4)
+- Pressure contour animation:
 
-[<img src="paraview_images/pressure_contour_at_20s.png" alt="Open pressure contour animation" width="700">](paraview_images/animations/pressure_contour.mp4)
+https://github.com/user-attachments/assets/a39bd303-fb4d-450d-ba48-c77a94a52862
 
-Pressure contour animation: [`paraview_images/animations/pressure_contour.mp4`](paraview_images/animations/pressure_contour.mp4)
+- Velocity vector field animation:
 
-[<img src="paraview_images/velocity_vectors_at_20s.png" alt="Open velocity vector field animation" width="700">](paraview_images/animations/velocity_vectors.mp4)
+https://github.com/user-attachments/assets/f32fe2ee-ce3d-4b7b-ba37-5a00fe4efa28
 
-Velocity vector field animation: [`paraview_images/animations/velocity_vectors.mp4`](paraview_images/animations/velocity_vectors.mp4)
+- Velocity streamline animation:
 
-[<img src="paraview_images/velocity_streamlines_at_20s.png" alt="Open velocity streamline animation" width="700">](paraview_images/animations/streamlines.mp4)
+https://github.com/user-attachments/assets/34091af4-1a57-44e0-9757-37bf4b567b03
 
-Velocity streamline animation: [`paraview_images/animations/streamlines.mp4`](paraview_images/animations/streamlines.mp4)
 
 # `cavityRAS` tutorial: manual `pisoFoam` run with standard k-epsilon
 
