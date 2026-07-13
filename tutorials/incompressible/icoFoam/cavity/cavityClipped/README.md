@@ -18,7 +18,7 @@ The clipped geometry of the cavity is shown as an edited image from previous tut
 - Pressure contour:
 
 <figure>
-    <img src="paraview_images/pressure_contour.png" alt="" width="500" height="auto"/>
+    <img src="paraview_images/pressure_contour.png" alt="" width="700" height="auto"/>
     <br>
 </figure>
 
@@ -27,7 +27,7 @@ The clipped geometry of the cavity is shown as an edited image from previous tut
 - Velocity contour:
 
 <figure>
-    <img src="paraview_images/velocity_contour.png" alt="" width="500" height="auto"/>
+    <img src="paraview_images/velocity_contour.png" alt="" width="700" height="auto"/>
     <br>
 </figure>
 
@@ -36,7 +36,7 @@ The clipped geometry of the cavity is shown as an edited image from previous tut
 - Velocity vectors:
 
 <figure>
-    <img src="paraview_images/velocity_vectors.png" alt="" width="500" height="auto"/>
+    <img src="paraview_images/velocity_vectors.png" alt="" width="700" height="auto"/>
     <br>
 </figure>
 
@@ -45,7 +45,7 @@ The clipped geometry of the cavity is shown as an edited image from previous tut
 - Streamlines:
 
 <figure>
-    <img src="paraview_images/streamlines.png" alt="" width="500" height="auto"/>
+    <img src="paraview_images/streamlines.png" alt="" width="700" height="auto"/>
     <br>
 </figure>
 
