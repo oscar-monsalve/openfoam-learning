@@ -20,6 +20,22 @@ Result images are stored in `images_both_cases/`.
 
 <br>
 
+This error is present in the regions where there is high non-orthogonality in the mesh, e.g. at the join of blocks 0, 1 and 3:
+
+- Mesh:
+
+<figure>
+  <img src="images_both_cases/mesh.png" width="1000" height="auto"/>
+</figure>
+
+<br>
+
+- Mesh blocks:
+
+<figure>
+  <img src="images_both_cases/mesh_blocks.png" width="1000" height="auto"/>
+</figure>
+
 - Velocity contour comparison:
 
 <figure>
