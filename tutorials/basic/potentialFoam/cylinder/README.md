@@ -7,7 +7,7 @@ Result images are stored in `images_both_cases/`.
 - Velocity-colored streamlines comparison:
 
 <figure>
-  <img src="images_both_cases/streamlines_comparison.png" width="500" height="auto"/>
+  <img src="images_both_cases/streamlines_comparison.png" width="700" height="auto"/>
 </figure>
 
 <br>
@@ -15,7 +15,7 @@ Result images are stored in `images_both_cases/`.
 - Error-colored streamlines comparison. The error is calculated in reference to the analytical solution. It is presented in gray background for better visualization:
 
 <figure>
-  <img src="images_both_cases/streamlines_velocity_error_gray_background.png" width="500" height="auto"/>
+  <img src="images_both_cases/streamlines_velocity_error_gray_background.png" width="700" height="auto"/>
 </figure>
 
 <br>
@@ -23,7 +23,7 @@ Result images are stored in `images_both_cases/`.
 - Velocity contour comparison:
 
 <figure>
-  <img src="images_both_cases/contour_velocity_comparison.png" width="500" height="auto"/>
+  <img src="images_both_cases/contour_velocity_comparison.png" width="700" height="auto"/>
 </figure>
 
 <br>
@@ -31,7 +31,7 @@ Result images are stored in `images_both_cases/`.
 - Pressure contour comparison:
 
 <figure>
-  <img src="images_both_cases/contour_pressure_comparison.png" width="500" height="auto"/>
+  <img src="images_both_cases/contour_pressure_comparison.png" width="700" height="auto"/>
 </figure>
 
 <br>
